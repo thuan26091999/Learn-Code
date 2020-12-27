@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Time/main.cpp
+iostream
+-
+time.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Time/time.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Time/time.cpp
+iostream
+-
+time.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Time/time.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Time/time.h
+iostream
+-
+

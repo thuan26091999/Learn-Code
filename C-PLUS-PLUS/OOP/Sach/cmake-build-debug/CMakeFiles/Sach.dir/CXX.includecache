@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/DanhSachTaiLieu.cpp
+DanhSachTaiLieu.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/DanhSachTaiLieu.h
+iostream
+-
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/DanhSachTaiLieu.h
+vector
+-
+GiaoTrinh.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/GiaoTrinh.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/GiaoTrinh.h
+Sach.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/Sach.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Sach/Sach.h
+string
+-
+

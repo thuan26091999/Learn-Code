@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DanhSachChuyenXe.dir/main.cpp.o CMakeFiles/DanhSachChuyenXe.dir/DanhSachChuyenXe.cpp.o CMakeFiles/DanhSachChuyenXe.dir/NoiTinh.cpp.o CMakeFiles/DanhSachChuyenXe.dir/NgoaiTinh.cpp.o  -o DanhSachChuyenXe 

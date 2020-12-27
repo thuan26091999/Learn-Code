@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/thuexemay/main.cpp
+motorbike.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/thuexemay/motorbike.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/thuexemay/motorbike.h
+string
+-
+

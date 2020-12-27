@@ -1,0 +1,17 @@
+:root{
+    --text-color:white;
+    --background-color: rgb(228, 174, 58);
+    --heading-size:25px;
+    --font-size:14px;
+    --font:"'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+    
+}
+body{
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    font-family:var(--font);
+}
+h1,h2{
+    font-size: var(--heading-size);
+    color: var(--text-color);
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Sach.dir/main.cpp.o CMakeFiles/Sach.dir/Sach.cpp.o CMakeFiles/Sach.dir/GiaoTrinh.cpp.o CMakeFiles/Sach.dir/DanhSachTaiLieu.cpp.o  -o Sach 

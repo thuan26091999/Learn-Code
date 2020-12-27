@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Student/liststudent.h
+student.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Student/student.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Student/main.cpp
+iostream
+-
+liststudent.h
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Student/liststudent.h
+
+/home/nvt/Desktop/Code/C-PLUS-PLUS/OOP/Student/student.h
+string
+-
+

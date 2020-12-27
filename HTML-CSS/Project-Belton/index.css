@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-open-san: "Open Sans", sans-serif;
+  --font-amiri: "Amiri", serif;
+
+  --size-font-awesome: 20px;
+  --size-font-2: 25px;
+  --size-font-4: 48px;
+
+  --color-1: white;
+  --color-2: #bdbbba;
+}
+
+body {
+  font-family: var(--font-open-san);
+}
+
+.heading {
+  padding: 0.1px;
+  width: 100%;
+  height: 600px;
+  background: url(http://belton.tommusdemos.wpengine.com/wp-content/uploads/sites/82/2018/04/work-single-10.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.heading .cover-layer {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.856) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.856) 100%
+  );
+}
+.heading .menu-heading {
+  width: 100%;
+  height: 32px;
+  margin-top: 30px;
+  display: flex;
+  position: absolute;
+}
+
+.heading .menu-heading > a {
+  margin-left: 35px;
+  display: block;
+  font-size: var(--size-font-awesome);
+  color: var(--color-1);
+  position: absolute;
+}
+.heading .menu-heading img {
+  width: 94px;
+  height: 32px;
+  display: block;
+  margin: 0 auto;
+}
+.heading .menu-heading ul {
+  display: flex;
+  list-style: none;
+  margin-right: 35px;
+}
+.heading .menu-heading ul a {
+  display: block;
+  font-size: var(--size-font-awesome);
+  color: var(--color-2);
+  padding: 0px 8px;
+  transition: 0.4s;
+}
+.heading .menu-heading ul a:hover {
+  color: var(--color-1);
+}
+
+.heading .menu-heading::after {
+}
+
+/* end of menu heading */
+
+.heading .content-heading {
+  width: 650px;
+  margin-top: 200px;
+  margin-left: 460px;
+  position: absolute;
+}
+.heading .content-heading h4 {
+  font-family: var(--font-amiri);
+  font-size: var(--size-font-2);
+  color: var(--color-1);
+}
+.heading .content-heading p {
+  font-family: var(--font-open-san);
+  font-size: var(--size-font-4);
+  color: var(--color-1);
+  font-weight: 600px;
+}
+/* end of content top */
+/* end of header */
+.description-cover {
+  width: 100%;
+  height: 465px;
+  background: white;
+}
+.description-cover .description {
+  width: 975px;
+  height: 465px;
+  margin: 0 auto;
+  padding-top: 0.1px;
+  display: flex;
+}
+.description-cover .description .des-left {
+  margin-top: 100px;
+  width: 195px;
+  height: 265px;
+}
+.description-cover .description .des-left span {
+  display: block;
+  font-size: 20px;
+  font-family: var(--font-amiri);
+  color: #959595;
+}
+.description-cover .description .des-left p {
+  display: block;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.description-cover .description .des-right {
+  width: 690px;
+  height: 265px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 19px;
+  font-family: var(--font-amiri);
+  color: #959595;
+}
+.description-cover .description .des-right p {
+  margin-bottom: 20px;
+}
+
+.description-cover .description .des-right a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #959595;
+  display: flex;
+  position: relative;
+  transition: 0.4s;
+}
+.description-cover .description .des-right .arrow {
+  margin-top: 5px;
+  display: block;
+  transition: 0.4s;
+  position: absolute;
+}
+.description-cover .description .des-right a:hover {
+  color: black;
+}
+.description-cover .description .des-right a:hover .arrow {
+  margin-left: 10px;
+}
+.description-cover .description .des-right a span {
+  display: block;
+  position: absolute;
+  left: 30px;
+}
+/* end of description */
+.content-cover {
+  width: 100%;
+  background-color: black;
+  padding-top: 0.1px;
+}
+.content-cover .header-content {
+  width: 545px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+.content-cover .header-content ul {
+  list-style: none;
+  display: flex;
+}
+.content-cover .header-content ul a {
+  display: block;
+  font-family: var(--font-amiri);
+  font-size: 15px;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #959595;
+  transition: 0.4s;
+}
+.content-cover .header-content ul a:hover {
+  color: white;
+}
+/* end of header content */
+
+.content-cover .content {
+  width: 1150px;
+  height: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.content-cover .content .small-content {
+  width: 560px;
+  height: 370px;
+  position: relative;
+}
+.content-cover .content .small-content img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content-cover .content .small-content .cover-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+.content-cover .content .small-content .word-1 {
+  position: relative;
+  font-family: var(--font-amiri);
+  font-size: 25px;
+  top: 30px;
+  left: 430px;
+  width: 125px;
+  height: 40px;
+  overflow: hidden;
+}
+.content-cover .content .small-content .word-1 span {
+  position: absolute;
+}
+.content-cover .content .small-content .word-1 .word-1-cover {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  background-color: white;
+  left: 130px;
+  transition: 0.6s;
+}
+.content-cover .content .small-content:hover .word-1 .word-1-cover {
+  left: -130px;
+}
+
+.content-cover .content .small-content .word-2 {
+  position: relative;
+  font-family: var(--font-open-san);
+  font-size: 27px;
+  top: 40px;
+  left: 392px;
+  width: 165px;
+  height: 45px;
+  overflow: hidden;
+}
+.content-cover .content .small-content .word-2 span {
+  position: absolute;
+}
+.content-cover .content .small-content .word-2-cover {
+  position: absolute;
+  width: 165px;
+  height: 45px;
+  background-color: white;
+  left: -170px;
+  transition: 0.6s;
+}
+.content-cover .content .small-content:hover .word-2-cover {
+  left: 170px;
+}
+
+/* end of content */
