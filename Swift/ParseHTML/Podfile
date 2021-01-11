@@ -1,0 +1,5 @@
+target 'ParseHTML' do
+  
+  pod 'HTMLKit', '~> 3.1'
+
+end
