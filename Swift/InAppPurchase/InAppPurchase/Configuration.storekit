@@ -1,0 +1,59 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "7C1A61AA",
+      "localizations" : [
+        {
+          "description" : "Remove all ads",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.myapp.removeAds",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "5C59CEC0",
+      "localizations" : [
+        {
+          "description" : "Unlock App",
+          "displayName" : "Unlock",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.myapp.unlockEverything",
+      "referenceName" : "Unlock All",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "79C90C21",
+      "localizations" : [
+        {
+          "description" : "Buy Gems",
+          "displayName" : "Gems",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.myapp.getGems",
+      "referenceName" : "Gems",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
